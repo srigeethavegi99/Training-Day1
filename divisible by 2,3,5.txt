@@ -1,0 +1,10 @@
+Begin
+     DECLARE num as INTEGER
+     INITIALIZE num to 0
+     PROMPT "Enter the number" and store in num
+     if num%2==0 && num%3==0 && num%5==0
+       Display "Divisible"
+     else
+       Display "Not divisible"
+     end if 
+end
