@@ -1,0 +1,8 @@
+Begin
+      Prompt "Enter a number" and store in age
+      if(age>=18) then
+         Display "Eligible to vote"
+      Else
+         Display "not eligible to vote"
+      end if
+end
