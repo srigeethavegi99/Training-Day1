@@ -1,0 +1,22 @@
+Begin
+Declare numbers[5] as integerarrays
+Declare i,n as integer
+Declare num as integer
+for i =0 to 4
+ACCEPT numbers[i]
+for i = 0 to 4
+num =0
+for n= 2 to i
+if(numbers[i]%n==0)
+num = num+1
+end if
+end for
+if(num == 0)
+display numbers[i] is prime
+else 
+display numbers[i] is not prime
+end if
+end for
+end
+
+ 
