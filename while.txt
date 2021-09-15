@@ -1,0 +1,7 @@
+Begin
+     DECLARE num as INTEGER
+     INITIALIZE num to 1
+     while(num<=5)
+     num=num+1
+     Display num
+end
